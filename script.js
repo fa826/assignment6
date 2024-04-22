@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Convert frequency object to array and sort by frequency descending
         const sortedFrequency = Object.entries(frequency)
             .sort((a, b) => b[1] - a[1])
-            .slice(0, 5); // Get top 5 most frequent words
+            .slice(0, 10); // Get top 5 most frequent words
 
         // Clear previous results
         root.innerHTML = '';
